@@ -1,40 +1,23 @@
 <template>
   <div class="container">
-    ■ portal <br><br>
-    <div>
-      <a href="https://twitter.com/hukurouo" target="_blank">https://twitter.com/hukurouo</a>
-    </div>
-
-    <div>
-      <a href="https://github.com/hukurouo" target="_blank">https://github.com/hukurouo</a>
-    </div>
-
-    <div>
-      <a href="https://note.com/hukurouo" target="_blank">https://note.com/hukurouo</a>
-    </div>
-
-    <div>
-      <a href="https://hukurouo.tumblr.com/" target="_blank">https://hukurouo.tumblr.com/</a>
-    </div>
-
-
-    <hr>
-
-    <p>■ articles</p>
-
-   
-
     <div v-for="(item) in contents" :key="item.id" >
-      <nuxt-link :to="`blog/${item.id}`"> {{ item.title }} </nuxt-link>  
-    </div>
+     <div class="timestamp">{{ item.date }}</div>
+    
+    <h3> {{ item.title }} </h3>
 
+    <div class="tag">
+    <div v-for="(item) in item.tag" :key="item.id" >
+      <div class="tag_padding">#{{item}}</div>
+    </div>
+    </div>
     <br>
 
-     
+    <div v-html="item.text_html"></div>
+    <br>
+    <br>
+    </div>
     
-    
-    
-    
+
   </div>
 </template>
 
@@ -49,12 +32,14 @@ export default {
   },
   created() {
     var db = firebase.firestore();
-      db.collection("tests").get().then((querySnapshot) => {
+      db.collection("contents").orderBy("created_at", "desc").limit(10).get().then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
-            console.log(`${doc.id} => ${doc.data()}`);
-            console.log(`${doc.id} => ${doc.data().text}`);
-            //this.text = doc.data().text
-            this.contents.push({id: doc.id, title: doc.data().title, text: doc.data().text})
+            this.contents.push({id: doc.id, 
+      tag: doc.data().tag,
+      title: doc.data().title, 
+      date: doc.data().date,
+      created_at: doc.data().created_at.toDate(),
+      text_html: doc.data().text_html})
         });
       });
   }
@@ -71,4 +56,14 @@ export default {
   width: 900px;
 }
 }
+.tag{
+  display: flex;
+}
+
+.tag_padding{
+  padding-right: 8px;
+}
+
+
+
 </style>

@@ -1,5 +1,12 @@
 <template>
   <div>
+    <div class="container">
+      <div class ="inlinecont">
+        <nuxt-link to="/"> <b>hukurouo.web 🦉</b> </nuxt-link>
+        <div id="blank"> </div>
+        <nuxt-link to="/articles"> 記事一覧 </nuxt-link>  
+      </div>
+    </div>
     <Nuxt />
   </div>
 </template>
@@ -59,4 +66,49 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.container {
+  padding: 20px;
+}
+@media screen and (min-width: 768px) {
+.container {
+  padding: 20px;
+  width: 900px;
+  
+}
+}
+
+.inlinecont {
+  display: flex;
+  font-size: 18px;
+
+}
+
+#blank{
+  padding-left: 20px;
+}
+#blank_10{
+  padding-left: 10px;
+}
+
+.nav_title{
+  font-size: 24px;
+}
+a {
+ 
+color:rgb(70, 70, 68);
+ 
+}
+
+a:hover {
+ 
+color:#999;
+text-decoration:underline;
+ 
+}
+
+.display_flex{
+  display: flex;
+}
+
 </style>

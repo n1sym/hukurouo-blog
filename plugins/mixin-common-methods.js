@@ -10,6 +10,9 @@ Vue.mixin({
             console.log(`${doc.id} => ${doc.data()}`);
         });
     });
-    }
+    },
+
+
+    
   }
 })
