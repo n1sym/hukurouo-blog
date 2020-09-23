@@ -27,7 +27,7 @@ export default {
         { hid: "og:type", property: "og:type", content: this.meta.type },
         { hid: "og:url", property: "og:url", content: this.meta.url },
         { name: "twitter:title", content: this.meta.title },
-        { name: "twitter:text:title", content: "text" }
+        { name: "twitter:text:title", content: this.meta.title }
       ]
     };
   }

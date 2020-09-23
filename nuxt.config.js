@@ -27,12 +27,12 @@ export default {
       { hid: 'og:site_name', property: 'og:site_name', content: 'hukurouo.web' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://hukurouo.web.app/' },
-      { hid: 'og:description', property: 'og:description', content: '長文など' },
+      { hid: 'og:description', property: 'og:description', content: '' },
       { hid: 'og:image', property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/image%2F%E7%84%A1%E9%A1%8C.png?alt=media&token=fe05cb51-69db-495d-8d54-98a146713994' },
       { name: 'twitter:card', content: 'summary' },
       { hid: "og:title", property: "og:title", content: "hukurouo.web" },
       { name: "twitter:title", content: "hukurouo.web" },
-      { name: "twitter:text:title", content: "text" }
+      { name: "twitter:text:title", content: "hukurouo.web" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
