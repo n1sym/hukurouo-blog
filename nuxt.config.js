@@ -30,6 +30,9 @@ export default {
       { hid: 'og:description', property: 'og:description', content: '長文など' },
       { hid: 'og:image', property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/image%2F%E7%84%A1%E9%A1%8C.png?alt=media&token=fe05cb51-69db-495d-8d54-98a146713994' },
       { name: 'twitter:card', content: 'summary' },
+      { hid: "og:title", property: "og:title", content: "hukurouo.web" },
+      { name: "twitter:title", content: "hukurouo.web" },
+      { name: "twitter:text:title", content: "text" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -70,5 +73,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    extractCSS: true,
   }
 }
