@@ -31,6 +31,13 @@
 <script>
 import moment from 'moment';
 export default {
+  head(){
+    return {
+      meta: [
+        { hid: 'og:description', property: 'og:description', content: article.title },
+      ]
+    }
+  },
   filters: {
         moment: function (date) {
             return moment(date).format('YYYY/MM/DD');
