@@ -32,13 +32,6 @@
 import moment from 'moment';
 import Meta from '~/assets/mixins/meta'
 export default {
-  data () {
-    return {
-      item:{
-        name: ""
-      }
-    }
-  },
   filters: {
         moment: function (date) {
             return moment(date).format('YYYY/MM/DD');
@@ -53,7 +46,6 @@ export default {
       .fetch()
     return { articles, prev, next }
   },
-  
   mixins: [Meta],
 }
 </script>

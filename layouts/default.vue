@@ -90,6 +90,9 @@ html {
 #blank_10{
   padding-left: 10px;
 }
+#blank_5{
+  padding-left: 5px;
+}
 
 #font_black{
   color:rgb(75, 82, 88);
