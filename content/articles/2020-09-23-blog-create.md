@@ -7,7 +7,7 @@ tags: [firebase, Nuxt, Github Actions]
 
 webの勉強を兼ねつつ、個人ブログを作った。
 
-リポジトリ：[https://github.com/hukurouo/hukurouo-blog](https://github.com/hukurouo/hukurouo-blog)
+[https://github.com/hukurouo/hukurouo-blog](https://github.com/hukurouo/hukurouo-blog)
 
 使用した技術は以下のような構成です。
 

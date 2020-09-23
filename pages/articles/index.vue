@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <ArticleList :articles="articles"/>
+    <br><br>
   </div>
+  
 </template>
 
 <script>

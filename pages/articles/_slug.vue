@@ -24,6 +24,7 @@
      <div class="linkedit"> {{ next.title }} </div> 
     </NuxtLink>
     </div>
+    <br><br>
   </article>
 </div>
 </template>
@@ -51,15 +52,7 @@ export default {
 </script>
 
 <style>
-.container {
-  padding: 20px;
-}
-@media screen and (min-width: 768px) {
-.container {
-  padding: 20px;
-  width: 900px;
-}
-}
+
 .tag{
   display: flex;
 }

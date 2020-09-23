@@ -68,15 +68,21 @@ html {
 }
 
 .container {
-  padding: 20px;
+  padding: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media screen and (min-width: 768px) {
 .container {
-  padding: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   width: 900px;
   
 }
 }
+
 
 .inlinecont {
   display: flex;
