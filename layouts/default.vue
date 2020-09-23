@@ -2,9 +2,9 @@
   <div>
     <div class="container">
       <div class ="inlinecont">
-        <nuxt-link to="/"> <b>hukurouo.web 🦉</b> </nuxt-link>
+        <nuxt-link to="/"> <b id="font_black">hukurouo.web 🦉</b> </nuxt-link>
         <div id="blank"> </div>
-        <nuxt-link to="/articles"> 記事一覧 </nuxt-link>  
+        <nuxt-link to="/articles"> <a id="font_black">記事一覧</a>  </nuxt-link>  
       </div>
     </div>
     <Nuxt />
@@ -91,13 +91,12 @@ html {
   padding-left: 10px;
 }
 
+#font_black{
+  color:rgb(75, 82, 88);
+}
+
 .nav_title{
   font-size: 24px;
-}
-a {
- 
-color:rgb(70, 70, 68);
- 
 }
 
 a:hover {
@@ -112,6 +111,7 @@ text-decoration:underline;
 }
 .linkedit{
   text-decoration:underline;
+  color:rgb(75, 82, 88);
 }
 
 </style>

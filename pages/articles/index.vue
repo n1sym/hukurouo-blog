@@ -17,7 +17,7 @@ export default {
         }
   },
   async asyncData ({ $content, params }) {
-    const query = await $content('articles' || 'index').sortBy('createdAt', 'desc')
+    const query = await $content('articles' || 'index').sortBy('date', 'desc')
     const articles = await query.fetch()
     return { articles }
   }

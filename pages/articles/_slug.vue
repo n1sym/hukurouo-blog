@@ -4,7 +4,7 @@
     <div class="timestamp">
     {{articles.date | moment }}
     </div>
-    <h1>{{articles.title}}</h1>
+    <h3>{{articles.title}}</h3>
     
     <div class="tag">
       <div v-for="tag in articles.tags" :key="tag"> <div class="tag_padding">#{{tag}}</div> </div>
@@ -76,6 +76,29 @@ img {
 .timestamp {
   color:rgb(105, 104, 104);
   font-size: 14px;
+}
+
+.nuxt-content code {
+    color: #1a202c;
+    font-weight: 400;
+    font-size: .875em;
+    background-color: #f7fafc;
+    padding: .25rem;
+    border-width: 1px;
+    border-color: #edf2f7;
+    border-radius: .25rem;
+}
+
+.nuxt-content pre code {
+    background-color: transparent;
+    border-width: 0;
+    border-radius: 0;
+    padding: 0;
+    font-weight: 400;
+    color: inherit;
+    font-size: inherit;
+    font-family: DM Mono;
+    line-height: inherit;
 }
 
 </style>
