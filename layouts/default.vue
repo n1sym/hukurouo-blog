@@ -110,5 +110,8 @@ text-decoration:underline;
 .display_flex{
   display: flex;
 }
+.linkedit{
+  text-decoration:underline;
+}
 
 </style>

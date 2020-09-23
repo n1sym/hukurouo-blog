@@ -9,9 +9,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt/content": "^1.9.0",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "firebase": "^7.19.1",
+    "firebase-tools": "^8.11.0",
+    "moment": "^2.29.0",
     "nuxt": "^2.14.0"
   },
   "devDependencies": {

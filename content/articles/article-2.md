@@ -1,0 +1,12 @@
+---
+title: img
+date: 2020-09-23
+tags: [art, spectra]
+
+---
+
+画像テスト
+
+スペクトラちゃん
+
+![spect](https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/image%2FTEGAKI_200922_213346.png?alt=media&token=64ebba39-02b4-435c-8b45-bd53f5d25568)
