@@ -14,9 +14,9 @@ webの勉強を兼ねつつ、個人ブログを作った。
 - mdファイルでページを生成できる`Nuxt/Content`でコンテンツ生成
   - [https://content.nuxtjs.org/ja/](https://content.nuxtjs.org/ja/)
   - 機能がシンプルで好き。カスタマイズも簡単なので良い
-- hosting は firebase hosting を使用。
-- Github Actions で自動でデプロイを走らせるようにした。
-  - なんだかんだCIに初めて手を出したけど、やはり便利ですね
+- hosting は firebase hosting を使用
+- Github Actions で自動でデプロイを走らせるようにした
+  - なんだかんだCIに初めて手を出したけど、これは便利ですね
 
 
 
