@@ -57,6 +57,9 @@ export default {
   display: flex;
 }
 
+img {
+  width: 600px;
+}
 @media screen and (max-width: 768px) {
 img {
   width: 100%;
