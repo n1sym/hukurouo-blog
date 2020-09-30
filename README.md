@@ -1,5 +1,7 @@
 # hukurouo
 
+日記、技術記事、感想文など
+
 ## Build Setup
 
 ```bash
