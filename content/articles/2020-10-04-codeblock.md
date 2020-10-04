@@ -14,7 +14,7 @@ tags: [Nuxt, nuxt/content]
 
 nuxt/contentでは`PrimeJS`を使用しているので、prismのテーマをインストールしましょう。
 
-https://content.nuxtjs.org/ja/configuration/#markdownprismtheme
+`npm install prism-themes`
 
 テーマのラインナップはここで確認できます。
 
