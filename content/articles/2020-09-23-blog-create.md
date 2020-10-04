@@ -2,7 +2,7 @@
 title: 個人ブログを作ってみた
 date: 2020-09-23
 categories: 技術
-tags: [firebase, Nuxt, Github Actions]
+tags: [firebase, Nuxt, Github Actions, nuxt/content]
 ---
 
 webの勉強を兼ねつつ、個人ブログを作った。

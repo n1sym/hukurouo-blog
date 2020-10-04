@@ -74,5 +74,12 @@ export default {
   */
   build: {
     extractCSS: true,
+  },
+  content: {
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-ghcolors.css'
+      }
+    }
   }
 }

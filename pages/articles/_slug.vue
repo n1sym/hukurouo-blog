@@ -58,7 +58,9 @@ export default {
 }
 
 img {
-  width: 600px;
+  padding: 10px;
+  margin-bottom: 20px;
+
 }
 @media screen and (max-width: 768px) {
 img {

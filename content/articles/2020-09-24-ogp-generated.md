@@ -2,7 +2,7 @@
 title: nuxt/contentでOGPを生成する
 date: 2020-09-24
 categories: 技術
-tags: [Nuxt, OGP]
+tags: [Nuxt, OGP, nuxt/content]
 ---
 
 OGPを作ります。
