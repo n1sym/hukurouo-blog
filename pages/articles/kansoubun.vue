@@ -17,7 +17,7 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const query = await $content('articles' || 'index').sortBy('date', 'desc')
+    const query = await $content('articles' || 'index').where({ categories: "感想文"}).sortBy('date', 'desc')
     const articles = await query.fetch()
     return { articles }
   }
