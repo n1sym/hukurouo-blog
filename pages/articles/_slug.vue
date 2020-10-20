@@ -136,4 +136,12 @@ blockquote cite {
     font-size: 0.9em;
 }
 
+ul {
+  padding-left: 20px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
 </style>
