@@ -100,7 +100,7 @@ html {
   padding-left: 5px;
 }
 #padding_bottom_10{
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 #font_black{
