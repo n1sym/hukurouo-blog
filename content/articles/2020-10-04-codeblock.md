@@ -2,7 +2,7 @@
 title: nuxt/contentのコードブロックデザインを変える
 date: 2020-10-04
 categories: 技術
-tags: [Nuxt, nuxt/content]
+tags: []
 ---
 
 デフォルトのデザインがいまいち好きくない･･･。

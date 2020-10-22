@@ -2,7 +2,7 @@
 title: Firestore 勉強メモ
 date: 2020-10-18
 categories: 技術
-tags: [Firebase]
+tags: []
 ---
 
 [実践Firestore](https://www.amazon.co.jp/dp/B0851BGDQG/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1) を読んだ。名著だと思います。以下メモ。
