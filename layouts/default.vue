@@ -123,7 +123,7 @@ text-decoration:underline;
 }
 .linkedit{
   text-decoration:underline;
-  color:rgb(75, 82, 88);
+  color:rgb(70, 74, 78);
 }
 
 </style>

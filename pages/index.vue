@@ -1,11 +1,15 @@
 <template>
   <div class="container">
+    <br>
+    <p> ■ このサイトについて </p>
+     <p>日記、技術記事、感想文などを書きます</p>
+     <br>
     <p> ■ 最近の記事 </p>
 
     <ArticleList :articles="articles"/>
    
     <br>
-    <p>■ portal</p> 
+    <p>■ 各リンク</p> 
     <div class="linkedit">
       <a href="https://twitter.com/hukurouo" target="_blank">https://twitter.com/hukurouo</a>
     </div>
