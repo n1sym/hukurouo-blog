@@ -99,6 +99,9 @@ html {
 #blank_5{
   padding-left: 5px;
 }
+#padding_bottom_10{
+  padding-bottom: 10px;
+}
 
 #font_black{
   color:rgb(75, 82, 88);

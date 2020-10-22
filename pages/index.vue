@@ -4,7 +4,7 @@
 
     <ArticleList :articles="articles"/>
    
-    <br><br>
+    <br>
     <p>■ portal</p> 
     <div class="linkedit">
       <a href="https://twitter.com/hukurouo" target="_blank">https://twitter.com/hukurouo</a>
