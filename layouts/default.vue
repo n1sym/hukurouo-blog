@@ -100,7 +100,7 @@ html {
   padding-left: 5px;
 }
 #padding_bottom_10{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 #font_black{
@@ -122,7 +122,6 @@ text-decoration:underline;
   display: flex;
 }
 .linkedit{
-  text-decoration:underline;
   color:rgb(70, 74, 78);
 }
 

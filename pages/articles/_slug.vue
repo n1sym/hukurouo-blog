@@ -57,9 +57,14 @@ export default {
   display: flex;
 }
 
+.keyword{
+  color: rgb(26, 27, 27);
+}
+
 img {
   padding: 10px;
   margin-bottom: 20px;
+  max-width: 600px;
 
 }
 @media screen and (max-width: 768px) {

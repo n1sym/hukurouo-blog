@@ -39,6 +39,7 @@ export default {
 .date_2{
   color:rgb(92, 85, 85);
   font-size: 0.9rem;
+  padding-top: 2px;
 }
 
 </style>
