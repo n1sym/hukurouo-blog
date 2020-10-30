@@ -8,7 +8,8 @@
           {{n.date | moment}} :
         </div>  <a id="blank_5"></a>
         <div v-for="tag in n.tags" :key="tag">
-          <b-badge variant="light">{{ tag }}</b-badge><a id="blank_5"></a>
+          <nuxt-link :to="'/articles/tags/'+ tag">
+          <b-badge variant="light">{{ tag }}</b-badge></nuxt-link> <a id="blank_5"></a>
         </div>
        
       </div>

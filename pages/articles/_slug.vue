@@ -7,7 +7,8 @@
     <h3>{{articles.title}}</h3>
     
     <div class="tag">
-      <div v-for="tag in articles.tags" :key="tag"> <div class="tag_padding">#{{tag}}</div> </div>
+      <div v-for="tag in articles.tags" :key="tag"> <nuxt-link :to="'/articles/tags/'+ tag">
+          <b-badge variant="light">{{ tag }}</b-badge></nuxt-link> </div>
     </div>
     <br>
     
