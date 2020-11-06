@@ -103,6 +103,10 @@ html {
   padding-bottom: 25px;
 }
 
+#padding_top_5{
+  padding-top: 5px;
+}
+
 #font_black{
   color:rgb(75, 82, 88);
 }

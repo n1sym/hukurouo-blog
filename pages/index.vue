@@ -13,18 +13,24 @@
     <div class="linkedit">
       <a href="https://twitter.com/hukurouo" target="_blank">https://twitter.com/hukurouo</a>
     </div>
+    
+    <p id="padding_top_5">たまに呟きます</p> 
+    
 
     <div class="linkedit">
       <a href="https://github.com/hukurouo" target="_blank">https://github.com/hukurouo</a>
     </div>
 
+    <p  id="padding_top_5">プログラミングで作ったもの</p>
+
     <div class="linkedit">
       <a href="https://note.com/hukurouo" target="_blank">https://note.com/hukurouo</a>
     </div>
-
+    <p  id="padding_top_5">月1でよかった作品を紹介しています</p>
     <div class="linkedit">
       <a href="https://hukurouo.tumblr.com/" target="_blank">https://hukurouo.tumblr.com/</a>
     </div>
+    <p  id="padding_top_5">描いた絵の置き場</p>
     <br>
     <br>
   </div>
