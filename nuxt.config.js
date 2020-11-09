@@ -67,6 +67,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     '@nuxt/content',
+    ['@nuxtjs/google-gtag', { id: 'G-XG64R23GMQ' }]
   ],
   /*
   ** Build configuration
