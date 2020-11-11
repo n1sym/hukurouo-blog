@@ -28,7 +28,7 @@ export default {
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:url', property: 'og:url', content: 'https://hukurouo.web.app/' },
       { hid: 'og:description', property: 'og:description', content: '' },
-      { hid: 'og:image', property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/image%2F%E7%84%A1%E9%A1%8C.png?alt=media&token=fe05cb51-69db-495d-8d54-98a146713994' },
+      { hid: 'og:image', property: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/image%2Fwh.png?alt=media&token=5adfeea7-d45b-463e-b2f4-edceae1ab06e' },
       { name: 'twitter:card', content: 'summary' },
       { hid: "og:title", property: "og:title", content: "hukurouo.web" },
       { name: "twitter:title", content: "hukurouo.web" },
