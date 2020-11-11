@@ -32,6 +32,7 @@ export default {
       { name: 'twitter:card', content: 'summary' },
       { hid: "og:title", property: "og:title", content: "hukurouo.web" },
       { name: "twitter:title", content: "hukurouo.web" },
+      { name: "twitter:image", content: "https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/image%2Fwh.png?alt=media&token=5adfeea7-d45b-463e-b2f4-edceae1ab06e" },
       { name: "twitter:text:title", content: "hukurouo.web" }
     ],
     link: [
