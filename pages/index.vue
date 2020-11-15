@@ -31,6 +31,10 @@
       <a href="https://hukurouo.tumblr.com/" target="_blank">https://hukurouo.tumblr.com/</a>
     </div>
     <p  id="padding_top_5">描いた絵の置き場</p>
+    <div class="linkedit">
+      <a href="https://hukurouo-voxel-works.netlify.app/" target="_blank">https://hukurouo-voxel-works.netlify.app/</a>
+    </div>
+    <p  id="padding_top_5">ボクセルアートの置き場</p>
     <br>
     <br>
   </div>
