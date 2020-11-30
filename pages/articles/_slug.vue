@@ -102,6 +102,7 @@ img {
     font-weight: 400;
     color: inherit;
     font-size: inherit;
+    white-space: nowrap;
     line-height: inherit;
 }
 
