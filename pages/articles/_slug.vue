@@ -88,7 +88,7 @@ img {
     color: #1a202c;
     font-weight: 400;
     font-size: .875em;
-    background-color: #f7fafc;
+    background-color: #f1f4f7;
     padding: .25rem;
     border-width: 1px;
     border-color: #edf2f7;
@@ -99,12 +99,18 @@ img {
     background-color: transparent;
     border-width: 0;
     border-radius: 0;
-    padding: 0;
     font-weight: 400;
     color: inherit;
     font-size: inherit;
-    font-family: DM Mono;
     line-height: inherit;
+}
+
+pre[class*="language-"] {
+	padding: 1em;
+	margin: 0.5em 0em 1.5em 0;
+	overflow: auto;
+	border: 1px solid #dddddd;
+	background-color: white;
 }
 
 blockquote {
