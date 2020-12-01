@@ -107,12 +107,37 @@ img {
     line-height: inherit;
 }
 
+h1, .h1 {
+    padding-top: 1em;
+    padding-bottom: .2em;
+    margin-bottom: 1.1rem;
+    font-weight: bold; 
+    font-size: 1.5em;
+    position: relative;
+    border-bottom: 1px solid rgba(92,147,187,.17);
+}
+
+h3, .h3 {
+    padding-top: .2em;
+    font-weight: bold; 
+    font-size: 1.5em;
+    position: relative;
+}
+
 pre[class*="language-"] {
 	padding: 1em;
 	margin: 0.5em 0em 1.5em 0;
 	overflow: auto;
 	border: 1px solid #dddddd;
-	background-color: white;
+  font-family: "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #999988;
+	font-style: normal;
 }
 
 blockquote {
@@ -152,6 +177,7 @@ blockquote cite {
 
 ul {
   padding-left: 20px;
+  margin-bottom: 30px;
 }
 
 li {

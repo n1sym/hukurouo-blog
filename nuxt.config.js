@@ -50,6 +50,9 @@ export default {
   */
   plugins: [
   ],
+  server: {
+    port: 8000 // デフォルト: 3000
+  },
   /*
   ** Auto import components
   ** See https://nuxtjs.org/api/configuration-components
@@ -80,7 +83,7 @@ export default {
   content: {
     markdown: {
       prism: {
-        theme: 'prism-themes/themes/prism-ghcolors.css'
+        theme: 'prism-themes/themes/prism-nord.css'
       }
     }
   }
