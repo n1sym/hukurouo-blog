@@ -97,28 +97,6 @@ img {
   font-size: 14px;
 }
 
-.nuxt-content code {
-    color: #1a202c;
-    font-weight: 400;
-    font-size: .875em;
-    background-color: #f1f4f7;
-    padding: .25rem;
-    border-width: 1px;
-    border-color: #edf2f7;
-    border-radius: .25rem;
-}
-
-.nuxt-content pre code {
-    background-color: transparent;
-    border-width: 0;
-    border-radius: 0;
-    font-weight: 400;
-    color: inherit;
-    font-size: inherit;
-    white-space: pre;
-    word-wrap: normal;
-    line-height: inherit;
-}
 
 h1, .h1 {
     padding-top: 1em;
@@ -154,6 +132,31 @@ pre[class*="language-"] {
 	border: 1px solid #dddddd;
   font-family: "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
+
+.nuxt-content code {
+    color: #1a202c;
+    font-weight: 400;
+    font-size: .875em;
+    background-color: #f1f4f7;
+    border-width: 1px;
+    border-color: #edf2f7;
+    border-radius: .25rem;
+    padding: 3px 5px;
+}
+
+.nuxt-content pre code {
+    background-color: transparent;
+    border-width: 0;
+    border-radius: 0;
+    font-weight: 400;
+    color: inherit;
+    font-size: inherit;
+    white-space: pre;
+    word-wrap: normal;
+    line-height: inherit;
+    padding: 0px;
+}
+
 
 .token.comment,
 .token.prolog,
