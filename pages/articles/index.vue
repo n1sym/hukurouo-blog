@@ -4,14 +4,14 @@
     ｜
     <NuxtLink :to="'/articles/kansoubun'"> <a id="font_black"> 感想文</a>  </NuxtLink>
     ｜
-    <NuxtLink :to="'/articles/gizyutu'"> <a id="font_black"> 技術</a>  </NuxtLink>
+    <NuxtLink :to="'/articles/gizyutu'"> <a id="font_black"> プログラミング</a>  </NuxtLink>
     ｜
     <NuxtLink :to="'/articles/nikki'"> <a id="font_black"> 日記</a>  </NuxtLink>
     <br><br>
     <ArticleList :articles="articles"/>
     <br><br>
   </div>
-  
+
 </template>
 
 <script>
