@@ -5,12 +5,25 @@
     {{articles.date | moment }}
     </div>
     <h3>{{articles.title}}</h3>
-    
+
     <div class="tag">
       <div v-for="tag in articles.tags" :key="tag"> <nuxt-link :to="'/articles/tags/'+ tag">
           <b-badge variant="light">{{ tag }}</b-badge></nuxt-link> </div>
     </div>
     <br>
+    <div v-if="articles.toc_flg">
+      
+      目次
+      <ul>
+        <li
+          v-for="link of articles.toc"
+          :key="link.id"
+          :class="{ 'toc2': link.depth === 2, 'toc3': link.depth === 3 }"
+        >
+        <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
+        </li>
+      </ul>
+    </div>
     
     <nuxt-content :document="articles" />
     <br>
@@ -108,6 +121,16 @@ img {
 }
 
 h1, .h1 {
+    padding-top: 1em;
+    padding-bottom: .2em;
+    margin-bottom: 1.1rem;
+    font-weight: bold; 
+    font-size: 1.5em;
+    position: relative;
+    border-bottom: 1px solid rgba(92,147,187,.17);
+}
+
+h2, .h2 {
     padding-top: 1em;
     padding-bottom: .2em;
     margin-bottom: 1.1rem;
