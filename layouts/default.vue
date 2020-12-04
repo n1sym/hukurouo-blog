@@ -2,10 +2,11 @@
   <div>
     <div class="container">
       <div class ="inlinecont">
-        <nuxt-link to="/"> <b id="font_black">hukurouo.web 🦉</b> </nuxt-link>
+        <nuxt-link to="/"> <b id="font_black">hukurouo.com 🦉</b> </nuxt-link>
         <div id="blank"> </div>
         <nuxt-link to="/articles"> <a id="font_black">記事一覧</a>  </nuxt-link>  
       </div>
+      <br>
     </div>
     <Nuxt />
   </div>

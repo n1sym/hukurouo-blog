@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <br>
     <p> ■ このサイトについて </p>
      <p>日記、技術記事、感想文などを書きます</p>
      <br>
@@ -32,7 +31,7 @@
     </div>
     <p  id="padding_top_5">描いた絵の置き場</p>
     <div class="linkedit">
-      <a href="https://hukurouo-voxel.netlify.app/" target="_blank">https://hukurouo-voxel.netlify.app/</a>
+      <a href="https://voxel.hukurouo.com/" target="_blank">https://voxel.hukurouo.com/</a>
     </div>
     <p  id="padding_top_5">ボクセルアートの置き場</p>
     <br>

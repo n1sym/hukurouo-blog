@@ -168,37 +168,11 @@ pre[class*="language-"] {
 
 blockquote {
     position: relative;
-    padding: 30px 15px 8px 15px;
+    padding: 16px 15px 1px 15px;
     box-sizing: border-box;
-    font-style: italic;
-    background: #efefef;
-    color: #555;
-}
-
-blockquote:before{
-    display: inline-block;
-    position: absolute;
-    top: 13px;
-    left: 15px;
-    content: "“";
-    font-family: FontAwesome;
-    color: #cfcfcf;
-    font-size: 28px;
-    line-height: 1;
-    font-weight: 900;
-}
-
-blockquote p {
-    padding: 0;
-    margin: 10px 0;
-    line-height: 1.7;
-}
-
-blockquote cite {
-    display: block;
-    text-align: right;
-    color: #888888;
-    font-size: 0.9em;
+    color: #777777;
+    background-color: rgb(245, 245, 245);
+    border-left: 3px solid #abacad;
 }
 
 ul {

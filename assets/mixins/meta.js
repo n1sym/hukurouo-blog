@@ -7,7 +7,7 @@ export default {
         url: "",
       },
       // ベースとなるurl。自分の環境に合わせてください。
-      base: "https://hukurouo.web.app"
+      base: "https://hukurouo.com"
     };
   },
   head() {
