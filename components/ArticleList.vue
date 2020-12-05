@@ -8,9 +8,11 @@
           {{n.date | moment}} :
         </div>  <a id="blank_5"></a>
         <div v-for="tag in n.tags" :key="tag">
-          <nuxt-link :to="'/articles/tags/'+ tag">
-          <b-badge variant="light">{{ tag }}</b-badge></nuxt-link> <a id="blank_5"></a>
-        </div>
+          
+          <nuxt-link :to="'/articles/tag/'+ tag"><div class="tagsize">
+          <b-badge variant="light">{{ tag }}</b-badge><a id="blank_5"></a></div></nuxt-link> 
+          </div>
+        
        
       </div>
     </div>
@@ -41,6 +43,11 @@ export default {
   color:rgb(92, 85, 85);
   font-size: 0.9rem;
   padding-top: 2px;
+}
+.tagsize{
+  color:rgb(92, 85, 85);
+  padding-top: 2.2px;
+  font-size: 0.9rem;
 }
 
 </style>

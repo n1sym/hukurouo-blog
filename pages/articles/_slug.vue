@@ -7,8 +7,9 @@
     <h3>{{articles.title}}</h3>
 
     <div class="tag">
-      <div v-for="tag in articles.tags" :key="tag"> <nuxt-link :to="'/articles/tags/'+ tag">
-          <b-badge variant="light">{{ tag }}</b-badge></nuxt-link> </div>
+      <div v-for="tag in articles.tags" :key="tag">
+        <nuxt-link :to="'/articles/tag/'+ tag"><b-badge variant="light">{{ tag }}</b-badge></nuxt-link><a id="blank_5"></a>
+      </div>
     </div>
     <br>
     <div v-if="articles.toc_flg">
@@ -131,6 +132,12 @@ pre[class*="language-"] {
 	overflow: auto;
 	border: 1px solid #dddddd;
   font-family: "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+pre {
+    display: block;
+    font-size: 87.5%;
+    color: #212529;
 }
 
 .nuxt-content code {
