@@ -74,13 +74,11 @@ blockquote {
 
 .container {
   width: 100%;
-  padding: 0px;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   display: block;
-  margin-left: auto;
-  margin-right: auto
+  margin: auto
 }
 @media screen and (min-width: 768px) {
 .container {
@@ -94,7 +92,9 @@ blockquote {
 }
 }
 
-
+html {
+       overflow-y:scroll;
+}
 
 .inlinecont {
   display: flex;
@@ -121,6 +121,17 @@ blockquote {
 #font_black{
   color:rgb(75, 82, 88);
 }
+
+.tagsize{
+  color:rgb(92, 85, 85);
+  margin-top:2px;
+  font-size: 0.8rem;
+  border-radius: .25rem;
+  padding:2px 5px;
+  margin-right: 5px;
+  background-color: rgb(238, 238, 238);
+}
+
 a {
     color: #007bff;
     text-decoration: none;

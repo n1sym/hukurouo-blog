@@ -8,7 +8,7 @@
 
     <div class="tag">
       <div v-for="tag in articles.tags" :key="tag">
-        <nuxt-link :to="'/articles/tag/'+ tag"><b-badge variant="light">{{ tag }}</b-badge></nuxt-link><a id="blank_5"></a>
+        <nuxt-link :to="'/articles/tag/'+ tag"><b-badge class="tagsize">{{ tag }}</b-badge></nuxt-link>
       </div>
     </div>
     <br>
@@ -69,6 +69,7 @@ export default {
 <style>
 
 .tag{
+  margin-top:5px;
   display: flex;
 }
 
