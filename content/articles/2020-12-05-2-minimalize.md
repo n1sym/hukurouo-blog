@@ -42,9 +42,11 @@ Time: 23030ms　=> 7244ms
 
 ## moment.js を消す
 
-`npm run build -a` でバンドルファイルを解析してみたら、moment.jsのサイズが1/3を占めていた。各国のローカライズデータが全て入っていたのが要因のようだ。
+`npm run build -a` でバンドルファイルを解析してみたら、moment.jsのサイズが1/3を占めていた。各国のローカライズデータが全て入っていたのが要因のようだ。このブログのdate値処理はそこまで複雑なことをしているわけではないので、これもアンインストールしておいた。
 
-このブログのdate値処理はそこまで複雑なことをしているわけではないので、これもアンインストールしておいた。
+![](https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/image%2Frapture_20201207000244.png?alt=media&token=924be131-ef93-4adc-a9fc-05545cf6e6a9)
+
+
 
 ----------
 
