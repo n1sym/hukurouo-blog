@@ -28,16 +28,14 @@
     </div>
     
     <nuxt-content :document="articles" />
-    <br>
-    <div class="display_flex">
-    <NuxtLink v-if="prev" :to="'/articles/'+ prev.slug">
-    <div class="linkedit"> {{ prev.title }} </div> 
+    <div class="">
+      <hr>
+    prev: <NuxtLink v-if="prev" :to="'/articles/'+ prev.slug">
+     {{ prev.title }} 
     </NuxtLink>
-    <div id="blank"> </div>
-      | 
-    <div id="blank"> </div>
-    <NuxtLink v-if="next" :to="'/articles/'+ next.slug">
-     <div class="linkedit"> {{ next.title }} </div> 
+    <br><br>
+    next: <NuxtLink v-if="next" :to="'/articles/'+ next.slug">
+      {{ next.title }}  
     </NuxtLink>
     </div>
     <br><br>
@@ -94,6 +92,11 @@ img {
   font-size: 14px;
 }
 
+.footer_org{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
 
 h1, .h1 {
     padding-top: 1em;
