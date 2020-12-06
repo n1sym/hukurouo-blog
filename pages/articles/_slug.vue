@@ -4,7 +4,7 @@
     <div class="timestamp">
     {{articles.date | moment }}
     </div>
-    <h3>{{articles.title}}</h3>
+    <h4>{{articles.title}}</h4>
 
     <div class="tag">
       <div v-for="tag in articles.tags" :key="tag">
@@ -111,7 +111,7 @@ h1, .h1 {
     border-bottom: 1px solid rgba(92,147,187,.17);
 }
 
-h2, .h2 {
+h2, .h2, h3, .h3 {
     padding-top: 1em;
     padding-bottom: .2em;
     margin-bottom: 1.1rem;
@@ -121,7 +121,7 @@ h2, .h2 {
     border-bottom: 1px solid rgba(92,147,187,.17);
 }
 
-h3, .h3 {
+h4, .h4 {
     padding-top: .2em;
     font-weight: bold; 
     font-size: 1.5em;
@@ -193,8 +193,13 @@ li {
     margin: 7px 0px;
 }
 
+
+
 .mokuzi{
   margin: 4px 0px;
+}
+.toc3 {
+  margin-left: 20px;
 }
 
 </style>
