@@ -2,7 +2,7 @@
 <div class="container">
   <article>
     <div class="timestamp">
-    {{articles.date | moment }}
+      <Date :date="articles.date" />
     </div>
     <h4>{{articles.title}}</h4>
 
@@ -46,14 +46,8 @@
 </template>
 
 <script>
-import moment from 'moment';
 import Meta from '~/assets/mixins/meta'
 export default {
-  filters: {
-        moment: function (date) {
-            return moment(date).format('YYYY/MM/DD');
-        }
-  },
   async asyncData ({ $content, params }) {
     const articles = await $content('articles', params.slug || 'index').fetch()
     const [prev, next] = await $content('articles')

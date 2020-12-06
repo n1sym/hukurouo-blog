@@ -146,6 +146,7 @@ hr {
   text-align: center;
   border-width: 0px;
   border-style: none;
+  margin: 30px 0;
 }
 hr:after {
   content: '§';

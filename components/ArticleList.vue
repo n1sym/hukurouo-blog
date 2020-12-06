@@ -5,7 +5,7 @@
       <br>
       <div class="display_flex">
         <div class="date_2"> 
-          {{n.date | moment}} :
+          <Date :date="n.date"/>
         </div>  <a id="blank_5"></a>
         <div v-for="tag in n.tags" :key="tag">
           
@@ -20,13 +20,7 @@
 </template>
 
 <script>
-import moment from 'moment';
 export default {
-  filters: {
-        moment: function (date) {
-            return moment(date).format('YYYY/MM/DD');
-        }
-  },
   data () {
     return {
     }

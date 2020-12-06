@@ -78,6 +78,7 @@ export default {
   */
   build: {
     extractCSS: true,
+    analyze: true,
   },
   content: {
     markdown: {
