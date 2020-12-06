@@ -85,7 +85,7 @@ blockquote {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 900px;
+  width: 800px;
   display: block;
     margin-left: auto;
     margin-right: auto
@@ -139,8 +139,22 @@ a {
 }
 p {
     line-height: 1.6;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
+
+hr {
+  text-align: center;
+  border-width: 0px;
+  border-style: none;
+}
+hr:after {
+  content: '§';
+  top: 1px;
+  padding: 0 10px;
+  color: rgb(190, 190, 190);
+  font-size: 20px;
+}
+
 *, :after, :before {
     box-sizing: border-box;
     margin: 0;

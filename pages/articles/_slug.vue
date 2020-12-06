@@ -16,7 +16,7 @@
       
       目次
       <ul>
-        <li
+        <li class="mokuzi"
           v-for="link of articles.toc"
           :key="link.id"
           :class="{ 'toc2': link.depth === 2, 'toc3': link.depth === 3 }"
@@ -190,7 +190,11 @@ ul {
 }
 
 li {
-    margin: 5px 0px;
+    margin: 7px 0px;
+}
+
+.mokuzi{
+  margin: 4px 0px;
 }
 
 </style>
