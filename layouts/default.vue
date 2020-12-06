@@ -124,8 +124,8 @@ html {
 
 .tagsize{
   color:rgb(92, 85, 85);
-  margin-top:2px;
-  font-size: 0.8rem;
+  margin-top:4px;
+  font-size: 0.7rem;
   border-radius: .25rem;
   padding:2px 5px;
   margin-right: 5px;
@@ -138,8 +138,8 @@ a {
     background-color: transparent;
 }
 p {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    line-height: 1.6;
+    margin: 10px 0px;
 }
 *, :after, :before {
     box-sizing: border-box;

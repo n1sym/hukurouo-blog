@@ -24,6 +24,7 @@
         <NuxtLink :to="`#${link.id}`">{{ link.text }}</NuxtLink>
         </li>
       </ul>
+      <br>
     </div>
     
     <nuxt-content :document="articles" />
@@ -176,7 +177,7 @@ pre {
 
 blockquote {
     position: relative;
-    padding: 16px 15px 1px 15px;
+    padding: 10px 15px 10px 15px;
     box-sizing: border-box;
     color: #777777;
     background-color: rgb(245, 245, 245);
@@ -185,11 +186,11 @@ blockquote {
 
 ul {
   padding-left: 20px;
-  margin-bottom: 30px;
+  line-height: 1.7;
 }
 
 li {
-    padding-top: 5px;
+    margin: 5px 0px;
 }
 
 </style>

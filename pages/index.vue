@@ -1,39 +1,22 @@
 <template>
   <div class="container">
-    <p> ■ このサイトについて </p>
      <p>日記、技術記事、感想文などを書きます</p>
      <br>
-    <p> ■ 最近の記事 </p>
+    ■ 最近の記事 <br><br>
 
     <ArticleList :articles="articles"/>
    
-    <br>
     <p>■ 各リンク</p> 
-    <div class="linkedit">
-      <a href="https://twitter.com/hukurouo" target="_blank">https://twitter.com/hukurouo</a>
-    </div>
+
+    <p id="padding_top_5">たまに呟きます: <a href="https://twitter.com/hukurouo" target="_blank">twitter.com/hukurouo</a> </p> 
     
-    <p id="padding_top_5">たまに呟きます</p> 
-    
+    <p  id="padding_top_5">プログラミングで作ったもの: <a href="https://github.com/hukurouo" target="_blank">github.com/hukurouo</a></p>
 
-    <div class="linkedit">
-      <a href="https://github.com/hukurouo" target="_blank">https://github.com/hukurouo</a>
-    </div>
+    <p  id="padding_top_5">月1でよかった作品紹介: <a href="https://note.com/hukurouo" target="_blank">note.com/hukurouo</a></p>
 
-    <p  id="padding_top_5">プログラミングで作ったもの</p>
+    <p  id="padding_top_5">描いた絵: <a href="https://hukurouo.tumblr.com/" target="_blank">hukurouo.tumblr.com</a></p>
 
-    <div class="linkedit">
-      <a href="https://note.com/hukurouo" target="_blank">https://note.com/hukurouo</a>
-    </div>
-    <p  id="padding_top_5">月1でよかった作品を紹介しています</p>
-    <div class="linkedit">
-      <a href="https://hukurouo.tumblr.com/" target="_blank">https://hukurouo.tumblr.com/</a>
-    </div>
-    <p  id="padding_top_5">描いた絵の置き場</p>
-    <div class="linkedit">
-      <a href="https://voxel.hukurouo.com/" target="_blank">https://voxel.hukurouo.com/</a>
-    </div>
-    <p  id="padding_top_5">ボクセルアートの置き場</p>
+    <p  id="padding_top_5">ボクセルアート: <a href="https://voxel.hukurouo.com/" target="_blank">voxel.hukurouo.com</a></p>
     <br>
     <br>
   </div>
