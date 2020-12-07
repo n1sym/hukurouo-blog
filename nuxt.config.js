@@ -64,6 +64,7 @@ export default {
   buildModules: [
     '@nuxtjs/dotenv',
   ],
+  serverMiddleware: [{ path: '/api', handler: '~/api/index.js' },],
   /*
   ** Nuxt.js modules
   */
