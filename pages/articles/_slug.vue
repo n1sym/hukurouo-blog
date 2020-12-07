@@ -29,14 +29,16 @@
     
     <nuxt-content :document="articles" />
     <div class="">
-      <hr>
-    prev: <NuxtLink v-if="prev" :to="'/articles/'+ prev.slug">
-     {{ prev.title }} 
-    </NuxtLink>
-    <br><br>
-    next: <NuxtLink v-if="next" :to="'/articles/'+ next.slug">
+      <br><br>
+        next: <NuxtLink v-if="next" :to="'/articles/'+ next.slug">
       {{ next.title }}  
     </NuxtLink>
+
+    <br><br>
+        prev: <NuxtLink v-if="prev" :to="'/articles/'+ prev.slug">
+     {{ prev.title }} 
+    </NuxtLink>
+
     </div>
     <br><br>
   </article>
