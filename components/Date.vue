@@ -1,6 +1,6 @@
 <template>
   <div>
-    {{ formatDate }} : 
+    {{ formatDate }}
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   },
   computed: {
     formatDate: function () {
-      return String(this.date).substring(0, 10)
+      return String(this.date).substring(0, 10) + ' :'
     }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mb-10">
     <NuxtLink :to="'/articles'"> <a id="font_black"> すべて</a>  </NuxtLink>
     ｜
     <NuxtLink :to="'/articles/category/感想文'"> <a id="font_black"> 感想文</a>  </NuxtLink>
@@ -9,3 +9,8 @@
     <NuxtLink :to="'/articles/category/日記'"> <a id="font_black"> 日記</a>  </NuxtLink>
   </div>
 </template>
+<style scoped>
+.mb-10{
+  margin-bottom: 10px;
+}
+</style>
