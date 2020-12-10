@@ -176,7 +176,7 @@ pre {
 
 blockquote {
     position: relative;
-    padding: 10px 15px 10px 15px;
+    padding: 1px 15px;
     box-sizing: border-box;
     color: #777777;
     background-color: rgb(245, 245, 245);
