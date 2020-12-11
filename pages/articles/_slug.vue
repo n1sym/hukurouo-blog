@@ -30,12 +30,12 @@
     <nuxt-content :document="articles" />
     <div class="">
       <br><br>
-        next: <NuxtLink v-if="next" :to="'/articles/'+ next.slug">
+        > next: <NuxtLink v-if="next" :to="'/articles/'+ next.slug">
       {{ next.title }}  
     </NuxtLink>
 
     <br><br>
-        prev: <NuxtLink v-if="prev" :to="'/articles/'+ prev.slug">
+       prev: <NuxtLink v-if="prev" :to="'/articles/'+ prev.slug">
      {{ prev.title }} 
     </NuxtLink>
 
@@ -133,6 +133,10 @@ pre[class*="language-"] {
 	overflow: auto;
 	border: 1px solid #dddddd;
   font-family: "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+img {
+  border: 1px solid #f1f0f0;
 }
 
 pre {
