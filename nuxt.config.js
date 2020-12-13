@@ -80,6 +80,9 @@ export default {
   build: {
     extractCSS: true,
   },
+  router: {
+    prefetchLinks: false
+  },
   content: {
     markdown: {
       prism: {
