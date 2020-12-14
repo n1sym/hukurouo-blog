@@ -128,7 +128,7 @@ html {
   font-size: 0.7rem;
   border-radius: .25rem;
   padding:2px 5px;
-  margin-right: 5px;
+  margin-left: 5px;
   background-color: rgb(238, 238, 238);
 }
 

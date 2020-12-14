@@ -6,7 +6,7 @@
       <div class="display_flex">
         <div class="date_2"> 
           <Date :date="n.date"/>
-        </div>  <a id="blank_5"></a>
+        </div>
         <div v-for="tag in n.tags" :key="tag">
           
           <nuxt-link :to="'/articles/tag/'+ tag"><div class="tagsize">
