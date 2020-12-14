@@ -37,6 +37,7 @@ export default {
   color:rgb(92, 85, 85);
   font-size: 0.9rem;
   padding-top: 2px;
+  white-space: nowrap;
 }
 
 
