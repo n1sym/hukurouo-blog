@@ -85,7 +85,7 @@ blockquote {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 800px;
+  width: 750px;
   display: block;
     margin-left: auto;
     margin-right: auto
