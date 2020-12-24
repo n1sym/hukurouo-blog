@@ -154,6 +154,7 @@ pre {
     border-color: #edf2f7;
     border-radius: .25rem;
     padding: 3px 5px;
+    margin: 0px 3px;
 }
 
 .nuxt-content pre code {
