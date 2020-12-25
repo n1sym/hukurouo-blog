@@ -148,7 +148,7 @@ html {
   margin-top:4px;
   font-size: 0.7rem;
   border-radius: .25rem;
-  padding:2px 5px;
+  padding:1px 3px;
   margin-left: 5px;
   background-color: rgb(238, 238, 238);
 }
@@ -238,8 +238,14 @@ text-decoration:underline;
   display: flex;
 }
 .linkedit{
-  color:rgb(53, 56, 61);
+   color:rgb(60, 98, 168);
   font-size:1.2rem;
+
+  /*
+    font-weight: 600; 
+    color:rgb(53, 56, 61);
+
+*/
 }
 
 </style>
