@@ -80,6 +80,9 @@ export default {
   build: {
     extractCSS: true,
   },
+  render: {
+    resourceHints: false
+  },
   content: {
     markdown: {
       prism: {
