@@ -1,7 +1,5 @@
 <template>
   <div class="container">
-    <Header />
-    <br>
     <ArticleList :articles="articles"/>
     <br><br>
   </div>

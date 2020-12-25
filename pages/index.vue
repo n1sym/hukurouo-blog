@@ -2,9 +2,6 @@
   <div class="container">
      <p>日記、技術記事、感想文などを書きます</p>
      <br>
-    ■ 最近の記事 <br><br>
-
-    <ArticleList :articles="articles"/>
    
     <p>■ 各リンク</p> 
 

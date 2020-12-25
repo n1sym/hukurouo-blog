@@ -8,7 +8,7 @@
 
     <div class="tag">
       <div v-for="tag in articles.tags" :key="tag">
-        <nuxt-link :to="'/articles/tag/'+ tag"><b-badge class="tagsize">{{ tag }}</b-badge></nuxt-link>
+        <nuxt-link :to="'/articles/tag/'+ tag"><div class="tagsize">{{ tag }}</div></nuxt-link>
       </div>
     </div>
     <br>
@@ -50,6 +50,7 @@ import Meta from '~/assets/mixins/meta'
 export default {
   async asyncData ({ $content, params }) {
     const articles = await $content('articles', params.slug || 'index').fetch()
+    console.log(articles)
     const [prev, next] = await $content('articles')
       .only(['title', 'slug'])
       .sortBy('date', 'asc')
@@ -74,7 +75,7 @@ export default {
 
 img {
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   max-width: 600px;
 
 }
@@ -99,6 +100,8 @@ img {
   margin: auto;
   justify-content: center;
 }
+figure{text-align:center;}
+figcaption{color:grey;font:14px arial;}
 
 h1, .h1 {
     padding-top: 1em;

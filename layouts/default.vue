@@ -1,11 +1,17 @@
 <template>
   <div>
     <div class="container">
-      <div class ="inlinecont">
-        <nuxt-link to="/"> <b id="font_black">hukurouo.com 🦉</b> </nuxt-link>
-        <div id="blank"> </div>
-        <nuxt-link to="/articles"> <a id="font_black">記事一覧</a>  </nuxt-link>  
-      </div>
+        <div class="title_header"> 
+          <nuxt-link to="/"> <b id="font_black">hukurouo.com 🦉</b></nuxt-link>
+        </div>
+        <div class="nav_header">
+          <div>
+            <nuxt-link to="/articles/category/技術"> <span id="font_black_under">Tech</span></nuxt-link>  
+          </div>
+          <div id="blank">
+            <nuxt-link to="/articles/category/感想文"> <span id="font_black_under">otaku</span></nuxt-link>  
+          </div>
+        </div>
       <br>
     </div>
     <Nuxt />
@@ -13,6 +19,21 @@
 </template>
 
 <style>
+.nav_header{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top:10px;
+   font-size: 20px;
+}
+
+.title_header{
+  text-align: center;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 html {
   font-family:
     'Source Sans Pro',
@@ -206,11 +227,19 @@ text-decoration:underline;
  
 }
 
+#font_black_under{
+  color:rgb(75, 82, 88);
+  font-size: 19px;
+  line-height: 1.9;
+  text-decoration:underline;
+}
+
 .display_flex{
   display: flex;
 }
 .linkedit{
-  color:rgb(70, 74, 78);
+  color:rgb(53, 56, 61);
+  font-size:1.2rem;
 }
 
 </style>
