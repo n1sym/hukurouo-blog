@@ -5,11 +5,14 @@
           <nuxt-link to="/"> <b id="font_black">hukurouo.com 🦉</b></nuxt-link>
         </div>
         <div class="nav_header">
-          <div>
-            <nuxt-link to="/articles/category/技術"> <span id="font_black_under">Tech</span></nuxt-link>  
+          <div id="blankx">
+            <nuxt-link to="/articles/category/技術"> <span id="font_black_under">技術</span></nuxt-link>  
           </div>
-          <div id="blank">
-            <nuxt-link to="/articles/category/感想文"> <span id="font_black_under">otaku</span></nuxt-link>  
+          <div id="blankx">
+            <nuxt-link to="/articles/category/感想文"> <span id="font_black_under">感想文</span></nuxt-link>  
+          </div>
+          <div id="blankx">
+            <nuxt-link to="/articles/category/日記"> <span id="font_black_under">日記</span></nuxt-link>  
           </div>
         </div>
       <br>
@@ -106,7 +109,7 @@ blockquote {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 650px;
+  width: 700px;
   display: block;
     margin-left: auto;
     margin-right: auto
@@ -124,6 +127,10 @@ html {
 
 #blank{
   padding-left: 20px;
+}
+#blankx{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 #blank_10{
   padding-left: 10px;
@@ -148,7 +155,7 @@ html {
   margin-top:4px;
   font-size: 0.7rem;
   border-radius: .25rem;
-  padding:1px 3px;
+  padding:1px 5px;
   margin-left: 5px;
   background-color: rgb(238, 238, 238);
 }
