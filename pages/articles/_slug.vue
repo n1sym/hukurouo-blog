@@ -77,6 +77,7 @@ img {
   padding: 10px;
   margin-bottom: 10px;
   max-width: 600px;
+  max-height: 500px;
 
 }
 @media screen and (max-width: 768px) {
@@ -101,7 +102,7 @@ img {
   justify-content: center;
 }
 figure{text-align:center;}
-figcaption{color:grey;font:14px arial;}
+figcaption{color:grey;font:14px arial;margin-bottom:30px;}
 
 h1, .h1 {
     padding-top: 1em;
