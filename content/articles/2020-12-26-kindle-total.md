@@ -14,7 +14,7 @@ thumbnail: https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/im
 
 ## GASでスクリプトを作る
 
-kindleの購入履歴は全てGmailに送られてくるようになっているので、そこから購入データを読み取りスプレッドシートに書き出したい。
+kindleの購入履歴は全てGmailに送られてくるようになっているので、そこから購入データを読み取ってスプレッドシートに書き出したい。
 
 まさに`GoogleAppScript`の使い所ということで、gsコードを書いていきます。
 
@@ -31,13 +31,13 @@ function getSubject(threads){
   const messagesForThreads = GmailApp.getMessagesForThreads(threads);
   const values = [];
   for(const messages of messagesForThreads){
-    var plainBody = messages[0].getPlainBody();
+    const plainBody = messages[0].getPlainBody();
     if (messages[0].getDate() < new Date("2020/01/01 00:00:00")){
       break;
     }
-    var arr = plainBody.split(/\r\n|\n/);
-    var filterArr = arr.filter(str => str.includes("注文合計: "))
-    var nedan = Number(filterArr[0].split(" ").reverse()[0].replace(",",""))
+    const arr = plainBody.split(/\r\n|\n/);
+    const filterArr = arr.filter(str => str.includes("注文合計: "))
+    const nedan = Number(filterArr[0].split(" ").reverse()[0].replace(",",""))
     const record = [
       messages[0].getDate(),
       nedan,

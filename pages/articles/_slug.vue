@@ -50,7 +50,7 @@ import Meta from '~/assets/mixins/meta'
 export default {
   async asyncData ({ $content, params }) {
     const articles = await $content('articles', params.slug || 'index').fetch()
-    console.log(articles)
+    //console.log(articles)
     const [prev, next] = await $content('articles')
       .only(['title', 'slug'])
       .sortBy('date', 'asc')
