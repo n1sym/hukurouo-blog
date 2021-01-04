@@ -76,7 +76,7 @@ export default {
 img {
   padding: 10px;
   margin-bottom: 10px;
-  max-width: 600px;
+  max-width: 660px;
   max-height: 500px;
 
 }
@@ -101,7 +101,10 @@ img {
   margin: auto;
   justify-content: center;
 }
-figure{text-align:center;}
+figure{
+  text-align:center;
+  margin: 0px;
+}
 figcaption{color:grey;font:14px arial;margin-bottom:30px;}
 
 h1, .h1 {
