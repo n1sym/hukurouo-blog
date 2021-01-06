@@ -215,10 +215,10 @@ li {
 
 .bcard-wrapper{
     display: block;
-    width: 100%;
+    max-width: 500px;
     margin: 20px 0px;
-    border-radius: 3px;
-    padding: 15px;
+    border-radius: 5px;
+    padding: 0px;
     border: 1px solid #e0e0e0;
 }
 .bcard-site,.bcard-url{
@@ -245,12 +245,13 @@ li {
     display: block;
 }
 .withogimg{
-    padding-right: 140px;
+    padding-right: 120px;
     
 }
  .bcard-img {
-width: 130px;
-height: 100px; 
+width: 120px;
+height: 100%; 
+border-radius: 0 5px 5px 0;
 position: absolute;
     top: 0;
     right: 0;
@@ -259,7 +260,7 @@ position: absolute;
 }
  .bcard-title{
     font-size: 17px;
-    margin: 0 0 10px;
+    margin: 17px 15px 0 15px;
     line-height: 1.4;
     max-height: 47px;
     overflow: hidden;
@@ -271,15 +272,15 @@ position: absolute;
  .bcard-description {
     line-height: 1.5;
     font-size: 12px;
-    color:#746e6e;
+    color:#857f7f;
+    margin: 7px 15px 17px 15px;
     max-height: 72px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
 }
-.bcard-title a{color:#424242;}
-.bcard-url a{color:#9e9e9e;}
-.bcard-title a:hover,.bcard-url a:hover,.bcard-site a:hover{text-decoration:none;}
+.bcard-wrapper a{color:#424242;}
+.bcard-wrapper a:hover,.bcard-url a:hover,.bcard-site a:hover{text-decoration:none;}
 
 </style>
