@@ -213,4 +213,73 @@ li {
   margin-left: 20px;
 }
 
+.bcard-wrapper{
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 3px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+}
+.bcard-site,.bcard-url{
+    font-size: 12px;
+    line-height: 1.3;
+    overflow: hidden;
+    max-height: 15px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+.bcard-header {
+    position: relative;
+    height: 30px;
+    margin-bottom: 5px;
+    display: block;
+}
+.withgfav{padding-left: 23px;}
+.bcard-favicon {position: absolute;
+    top: 0px; left:0px; width:16px; height:16px;}
+.bcard-main{
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+.withogimg{
+    padding-right: 140px;
+    
+}
+ .bcard-img {
+width: 130px;
+height: 100px; 
+position: absolute;
+    top: 0;
+    right: 0;
+    background-size:cover;
+    background-position:center center;
+}
+ .bcard-title{
+    font-size: 17px;
+    margin: 0 0 10px;
+    line-height: 1.4;
+    max-height: 47px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-weight: bold;
+}
+ .bcard-description {
+    line-height: 1.5;
+    font-size: 12px;
+    color:#746e6e;
+    max-height: 72px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.bcard-title a{color:#424242;}
+.bcard-url a{color:#9e9e9e;}
+.bcard-title a:hover,.bcard-url a:hover,.bcard-site a:hover{text-decoration:none;}
+
 </style>
