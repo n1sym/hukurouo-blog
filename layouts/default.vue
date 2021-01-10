@@ -109,7 +109,7 @@ blockquote {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  width: 700px;
+  width: 660px;
   display: block;
     margin-left: auto;
     margin-right: auto

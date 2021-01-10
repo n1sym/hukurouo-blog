@@ -74,11 +74,9 @@ export default {
 }
 
 img {
-  padding: 10px;
   margin-bottom: 10px;
-  max-width: 660px;
+  max-width: 640px;
   max-height: 500px;
-
 }
 @media screen and (max-width: 768px) {
 img {
@@ -211,7 +209,7 @@ li {
 
 .bcard-wrapper{
     display: block;
-    max-width: 500px;
+    
     margin: 20px 0px;
     border-radius: 5px;
     padding: 0px;
