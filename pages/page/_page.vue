@@ -6,7 +6,7 @@
       <span class="linkedit">prev page</span>
     </nuxt-link>
     <span class="blank" v-if="prevPage!=0"></span>
-    <nuxt-link :to="`/page/${nextPage}`">
+    <nuxt-link :to="`/page/${nextPage}`" v-if="nextPage!=20">
       <span class="linkedit">next page</span>
     </nuxt-link>
     <br><br>
