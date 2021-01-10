@@ -157,7 +157,7 @@ html {
   border-radius: .25rem;
   padding:0.5px 5px;
   margin-left: 5px;
-  background-color: rgb(247, 243, 243);
+  background-color: rgb(248, 248, 248);
 }
 
 a {
