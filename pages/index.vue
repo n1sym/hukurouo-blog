@@ -4,7 +4,7 @@
     <nuxt-link :to="'/page/2'">
       <span class="linkedit">next page</span>
     </nuxt-link>
-    <br><br>
+    <br><br><br><br>
   </div>
 
 </template>

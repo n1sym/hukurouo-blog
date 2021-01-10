@@ -9,7 +9,7 @@
     <nuxt-link :to="`/page/${nextPage}`" v-if="nextPage!=20">
       <span class="linkedit">next page</span>
     </nuxt-link>
-    <br><br>
+    <br><br><br><br>
   </div>
 
 </template>
