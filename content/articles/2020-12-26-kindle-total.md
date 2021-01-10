@@ -4,7 +4,7 @@ date: 2020-12-26
 categories: 技術
 tags: [GAS]
 toc_flg: true
-description: GoogleAppScript でスクリプトを作って集計してみた。
+description: 
 thumbnail: https://firebasestorage.googleapis.com/v0/b/hukurouo.appspot.com/o/images%2Frapture_20201226130235.png?alt=media&token=4668884b-32d8-4d61-a144-076d40805dcc
 ---
 

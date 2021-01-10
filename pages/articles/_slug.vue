@@ -142,10 +142,6 @@ pre[class*="language-"] {
   font-family: "Fira Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 }
 
-img {
-  border: 1px solid #f1f0f0;
-}
-
 pre {
     display: block;
     font-size: 87.5%;
