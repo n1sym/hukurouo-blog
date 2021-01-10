@@ -8,11 +8,12 @@
   </div>
 
 </template>
-
+where({ tags: { $contains: params.tag }})
+.where({ tags: { $nin: ['advent'] } })
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const query = await $content('articles' || 'index').sortBy('date', 'desc').limit(20)
+    const query = await $content('articles' || 'index').where({ tags: { $containsNone: 'advent'}}).sortBy('date', 'desc').limit(20)
     const articles = await query.fetch()
     return { articles }
   }

@@ -17,7 +17,7 @@
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const query = await $content('articles' || 'index').sortBy('date', 'desc').skip((params.page-1) * 20).limit(20)
+    const query = await $content('articles' || 'index').where({ tags: { $containsNone: 'advent'}}).sortBy('date', 'desc').skip((params.page-1) * 20).limit(20)
     const articles = await query.fetch()
     const prevPage = Number(params.page) - 1
     const nextPage = Number(params.page) + 1
