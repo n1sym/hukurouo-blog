@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <ArticleList :articles="articles"/>
+    <br>
     <nuxt-link :to="'/page/2'">
       <span class="linkedit">next page</span>
     </nuxt-link>

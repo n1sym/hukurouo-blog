@@ -155,9 +155,9 @@ html {
   margin-top:4px;
   font-size: 0.7rem;
   border-radius: .25rem;
-  padding:1px 5px;
+  padding:0.5px 5px;
   margin-left: 5px;
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(247, 243, 243);
 }
 
 a {
