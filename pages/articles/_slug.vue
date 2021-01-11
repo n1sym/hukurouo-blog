@@ -115,7 +115,7 @@ h1, .h1 {
     border-bottom: 1px solid rgba(92,147,187,.17);
 }
 
-h2, .h2, h3, .h3 {
+h2, .h2 {
     padding-top: 1em;
     padding-bottom: .2em;
     margin-bottom: 1.1rem;
@@ -123,6 +123,12 @@ h2, .h2, h3, .h3 {
     font-size: 1.5em;
     position: relative;
     border-bottom: 1px solid rgba(92,147,187,.17);
+}
+
+h3, .h3 {
+  padding: 0.5rem 1rem;
+  margin-top: 3rem;
+  border-left: 6px solid rgb(117, 184, 142);
 }
 
 h4, .h4 {
